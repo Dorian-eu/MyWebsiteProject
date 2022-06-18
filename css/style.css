@@ -11,13 +11,7 @@
 }
 body{
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 1.4;
-	color: #fff;
 	background-color: #1f2029;
-	overflow-x: hidden;
-  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -25,8 +19,14 @@ body{
   -ms-flex-pack: center;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 300px;
+  overflow: hidden;
+  -webkit-user-select: none;
+       -moz-user-select: none;
+         -o-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
+
 .sec-center {
   position: relative;
   max-width: 100%;
@@ -374,4 +374,3 @@ a .uil {
   right: 20px;
 }
 }
-/* end menu */
